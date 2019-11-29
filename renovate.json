@@ -1,0 +1,5 @@
+{
+  "extends": [
+    "github>renovatebot/docker-template"
+  ]
+}
