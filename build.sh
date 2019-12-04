@@ -1,7 +1,7 @@
 #!/bin/bash
 
-export DATASOURCE=github
-export LOOKUP_NAME=CocoaPods/CocoaPods
+export DATASOURCE=rubygems
+export LOOKUP_NAME=cocoapods
 export VERSION_SCHEME=ruby
 export START_VERSION=1.7.2
 export IMAGE=cocoapods
