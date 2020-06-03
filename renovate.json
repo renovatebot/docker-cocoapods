@@ -1,3 +1,4 @@
 {
-  "extends": ["github>renovatebot/docker-template"]
+  "$schema": "https://docs.renovatebot.com/renovate-schema.json",
+  "extends": ["github>renovatebot/presets-internal:docker-images"]
 }
