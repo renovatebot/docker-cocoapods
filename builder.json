@@ -1,0 +1,5 @@
+{
+  "image": "cocoapods",
+  "startVersion": "1.0.0",
+  "cache": "docker-build-cache"
+}
