@@ -1,7 +1,7 @@
 # renovate: datasource=rubygems depName=cocoapods versioning=ruby
 ARG COCOAPODS_VERSION=1.9.3
 
-FROM renovate/buildpack:2-ruby@sha256:9f390fa33873c64b14a071d7167c2759431b7ee9541b50a2ae95fb139f1cd721
+FROM renovate/buildpack:2-ruby@sha256:7b9a228a78d1801af54894b762ea53663185cb9352b927c28e1ec720ce838c94
 
 ARG RUBY_VERSION=2.7.1
 RUN install-tool ruby
