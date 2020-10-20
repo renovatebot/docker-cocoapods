@@ -1,5 +1,5 @@
 # renovate: datasource=rubygems depName=cocoapods versioning=ruby
-ARG COCOAPODS_VERSION=1.9.3
+ARG COCOAPODS_VERSION=1.10.0
 
 FROM renovate/buildpack:2-ruby@sha256:c60dd395f2d2b5d4c43e2c6634ff9c80af39178e2399df5f1c3de509c119bc02
 
