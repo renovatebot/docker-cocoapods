@@ -20,7 +20,7 @@ FROM renovate/buildpack:2-ruby-focal@sha256:a04584517b8903fc9c9ff24172ba18f42f3a
 FROM base-${FLAVOR}
 
 # renovate: datasource=ruby-version depName=ruby-version versioning=ruby
-ARG RUBY_VERSION=2.7.1
+ARG RUBY_VERSION=2.7.2
 RUN install-tool ruby
 
 ARG COCOAPODS_VERSION
