@@ -30,6 +30,8 @@ jobs:
         uses: renovatebot/internal-tools@v1.2.3
         with:
           command: docker-builder
+          major-minor: false
+          prune: true
           build-args: FLAVOR
           tag-suffix: ${{ env.FLAVOR }}
           dry-run: ${{ github.ref != 'refs/heads/master' }}
