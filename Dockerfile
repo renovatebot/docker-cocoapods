@@ -10,9 +10,9 @@ ARG FLAVOR=latest
 # renovate: datasource=rubygems depName=cocoapods versioning=ruby
 ARG COCOAPODS_VERSION=1.10.1
 
-FROM renovate/buildpack:2-ruby@sha256:b16961aba5564d537d6d562cc97e660b25a75baf12c385600f29cccd92fdba23 as base-latest
-FROM renovate/buildpack:2-ruby-bionic@sha256:254922ee3fd79f2bbf8fab39c0ba3d7183b32671987fdf83785ed9a99d8f5d59 as base-bionic
-FROM renovate/buildpack:2-ruby-focal@sha256:e7ad862c2d057bce2ab728b6f8016f3bb5b7421c3fa0d9c5559f6f1aa7ab457d as base-focal
+FROM renovate/buildpack:2-ruby@sha256:cc1793e1cb1c89f9bb2908ea5158988c4c3611f79c8c442dbae7af7db5b1b0f0 as base-latest
+FROM renovate/buildpack:2-ruby-bionic@sha256:e7191b5a00e521048ef35649aba9a6c5ddebc01758b771ea94e00d19dfa282e9 as base-bionic
+FROM renovate/buildpack:2-ruby-focal@sha256:eab4bfb79917e07b7766daa9fe58796254a4dc47449940e8a73717f6e32b7469 as base-focal
 
 #--------------------------------------
 # Image: final
