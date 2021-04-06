@@ -1,7 +1,7 @@
 # renovate: datasource=rubygems depName=cocoapods versioning=ruby
 ARG COCOAPODS_VERSION=1.10.1
 
-# renovate: datasource=ruby-version depName=ruby-version versioning=ruby
+# renovate: datasource=github-releases lookupName=renovatebot/ruby versioning=ruby
 ARG RUBY_VERSION=2.7.2
 
 #--------------------------------------
