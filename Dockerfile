@@ -2,7 +2,7 @@
 ARG COCOAPODS_VERSION=1.10.1
 
 # renovate: datasource=ruby-version depName=ruby-version versioning=ruby
-ARG RUBY_VERSION=2.7.2
+ARG RUBY_VERSION=2.7.3
 
 #--------------------------------------
 # Image: final
