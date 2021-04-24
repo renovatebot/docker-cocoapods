@@ -7,7 +7,7 @@ ARG RUBY_VERSION=2.7.3
 #--------------------------------------
 # Image: final
 #--------------------------------------
-FROM renovate/buildpack:5-ruby@sha256:b87243008fcfbddfe970fcb3ff46be050ccfea7fed2dd3762e8148566586142d
+FROM renovate/buildpack:5-ruby@sha256:c564414e92f81ec878b4367690f8642a43741b5e59202d61327e9bbb32d7d10e
 
 ARG RUBY_VERSION
 RUN install-tool ruby
