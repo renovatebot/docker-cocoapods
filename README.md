@@ -7,4 +7,4 @@
 
 Dockerized Cocoapods command line tool
 
-This repository is the source for the Docker Hub image `renovate/cocoapods`. Commits to `master` branch are automatically built and published.
+This repository is the source for the Docker Hub image `renovate/cocoapods`. Commits to `main` branch are automatically built and published.
