@@ -2,7 +2,7 @@
 ARG COCOAPODS_VERSION=1.11.2
 
 # renovate: datasource=github-releases depName=containerbase/ruby-prebuild versioning=ruby
-ARG RUBY_VERSION=2.7.4
+ARG RUBY_VERSION=2.7.5
 
 #--------------------------------------
 # Image: final
